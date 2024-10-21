@@ -52,46 +52,4 @@ def main():
     print(result)
 main()
               
-              
-"""
-OUTPUT:
-Expanded city------------------------------ Arad
-Second best f(n)------------------------------ 999
-(393, 'Arad,Sibiu', 'Sibiu')
-(999, 'NA', 'NA')
-(447, 'Arad,Timisoara', 'Timisoara')
-Expanded city------------------------------ Sibiu
-Second best f(n)------------------------------ 447
-(413, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-(415, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(447, 'Arad,Timisoara', 'Timisoara')
-(999, 'NA', 'NA')
-Expanded city------------------------------ Rimnicu
-Second best f(n)------------------------------ 415
-(415, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(417, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-(447, 'Arad,Timisoara', 'Timisoara')
-(999, 'NA', 'NA')
-Expanded city------------------------------ Fagaras
-Second best f(n)------------------------------ 417
-(417, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-(450, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(447, 'Arad,Timisoara', 'Timisoara')
-(999, 'NA', 'NA')
-Expanded city------------------------------ Rimnicu
-Second best f(n)------------------------------ 447
-(417, 'Arad,Sibiu,Rimnicu,Pitesti', 'Pitesti')
-(447, 'Arad,Timisoara', 'Timisoara')
-(999, 'NA', 'NA')
-(450, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(526, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-Expanded city------------------------------ Pitesti
-Second best f(n)------------------------------ 447
-(418, 'Arad,Sibiu,Rimnicu,Pitesti,Bucharest', 'Bucharest')
-(447, 'Arad,Timisoara', 'Timisoara')
-(607, 'Arad,Sibiu,Rimnicu,Pitesti', 'Pitesti')
-(526, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-(450, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(999, 'NA', 'NA')
-Arad,Sibiu,Rimnicu,Pitesti,Bucharest::418
-"""
+ 
